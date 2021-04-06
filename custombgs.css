@@ -1,0 +1,139 @@
+@media (max-width: 599px) {
+    html[page=home] #hero.webp::before, #hero.webp::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgmobile.webp");
+    }
+
+    html[page=home] #hero.jpg::before, #hero.jpg::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgmobile.jpg");
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    html[page=home] #hero.webp::before, #hero.webp::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgtablet.webp");
+    }
+
+    html[page=home] #hero.jpg::before, #hero.jpg::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgtablet.jpg");
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    html[page=home] #hero.webp::before, #hero.webp::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bghd.webp");
+    }
+
+    html[page=home] #hero.jpg::before, #hero.jpg::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bghd.jpg");
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1949px) {
+    html[page=home] #hero.webp::before, #hero.webp::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgfullhd.webp");
+    }
+
+    html[page=home] #hero.jpg::before, #hero.jpg::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bgfullhd.jpg");
+    }
+}
+
+@media (min-width: 1950px) {
+    html[page=home] #hero.webp::before, #hero.webp::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bg4k.webp");
+    }
+
+    html[page=home] #hero.jpg::before, #hero.jpg::before{
+        background-image: linear-gradient(to bottom, rgba(36,42,53, 0.5), rgba(36,42,53, 0) 50%, transparent 50%), url("/bgs/bg4k.jpg");
+    }
+}
+
+@media (max-width: 599px) {
+    html[page=chapter][mode=light] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgmobile.webp");
+    }
+    
+    html[page=chapter][mode=dark] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgmobile.webp");
+    }
+
+    html[page=chapter][mode=light] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgmobile.jpg");
+    }
+    
+    html[page=chapter][mode=dark] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgmobile.jpg");
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    html[page=chapter][mode=light] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgtablet.webp");
+    }
+    
+    html[page=chapter][mode=dark] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgtablet.webp");
+    }
+
+    html[page=chapter][mode=light] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgtablet.jpg");
+    }
+    
+    html[page=chapter][mode=dark] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgtablet.jpg");
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    html[page=chapter][mode=light] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bghd.webp");
+    }
+    
+    html[page=chapter][mode=dark] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bghd.webp");
+    }
+
+    html[page=chapter][mode=light] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bghd.jpg");
+    }
+    
+    html[page=chapter][mode=dark] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bghd.jpg");
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1949px) {
+    html[page=chapter][mode=light] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgfullhd.webp");
+    }
+    
+    html[page=chapter][mode=dark] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgfullhd.webp");
+    }
+
+    html[page=chapter][mode=light] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bgfullhd.jpg");
+    }
+    
+    html[page=chapter][mode=dark] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bgfullhd.jpg");
+    }
+}
+
+@media (min-width: 1950px) {
+    html[page=chapter][mode=light] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bg4k.webp");
+    }
+    
+    html[page=chapter][mode=dark] #hero.webp::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bg4k.webp");
+    }
+
+    html[page=chapter][mode=light] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(21, 41, 156, 0.5), 100%, transparent 0%), url("/bgs/bg4k.jpg");
+    }
+    
+    html[page=chapter][mode=dark] #hero.jpg::before {
+        background-image: linear-gradient(to bottom, rgba(36, 42, 53, 0.5), 100%, transparent 0%), url("/bgs/bg4k.jpg");
+    }
+}

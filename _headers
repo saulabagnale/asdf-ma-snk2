@@ -1,0 +1,55 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  cache-control: public, max-age=300, s-maxage=600
+/
+  cache-control: public, max-age=300, s-maxage=600
+/*
+  cache-control: public, max-age=300, s-maxage=600
+/*.png
+  cache-control: public, max-age=31536000, immutable
+/**/*.png
+  cache-control: public, max-age=31536000, immutable
+/**/*.webp
+  cache-control: public, max-age=31536000, immutable
+/static/**/*.chunk.css
+  cache-control: public, max-age=31536000, immutable
+/static/**/*.chunk.js
+  cache-control: public, max-age=31536000, immutable
+/bgs/**
+  cache-control: public, max-age=31536000, immutable
+/flags/**
+  cache-control: public, max-age=31536000, immutable
+/icons/**
+  cache-control: public, max-age=31536000, immutable
+/**/*.jpg
+  cache-control: public, max-age=2628288, immutable
+/*.webmanifest
+  cache-control: public, max-age=2628288, immutable
+/2ocean.js
+  cache-control: public, max-age=31536000, immutable
+/OneSignalSDKWorker.js
+  cache-control: public, max-age=2628288, immutable
+/OneSignalSDKUpdaterWorker.js
+  cache-control: public, max-age=2628288, immutable
+/service-worker.js
+  cache-control: public, s-maxage=600
+/*.html
+  cache-control: public, max-age=300, s-maxage=600
+/**/*.html
+  cache-control: public, max-age=300, s-maxage=600
+/jsons/mangaNames.json
+  cache-control: public, max-age=86400, s-maxage=259200
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
