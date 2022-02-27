@@ -28,7 +28,7 @@
   cache-control: public, max-age=2628288, immutable
 /*.webmanifest
   cache-control: public, max-age=2628288, immutable
-/2ocean.js
+/ocean3.js
   cache-control: public, max-age=31536000, immutable
 /OneSignalSDKWorker.js
   cache-control: public, max-age=2628288, immutable
